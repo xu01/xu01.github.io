@@ -4,7 +4,7 @@ title:  "Hello 2016"
 date:   2016-02-25 08:45:00 +0800
 categories: Others
 ---
-![Hello_2016](/assets/images/2015-02-25/hello_2016.jpg)
+![Hello_2016](/assets/images/2016-02-25/hello_2016.jpg)
 
 ### 老规矩，先总结2015 ###
 <p>在过去的2015年，对于我，发生了很多事情（换工作，结婚领证，重新减肥，买了新房子成为房奴...）。</p>
