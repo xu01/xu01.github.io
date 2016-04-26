@@ -22,9 +22,9 @@ categories: iOS
 
 <p>&emsp;&emsp;随后开始创建项目，之前添加的 Git plugin 信息，如图:</p>
 ![Git Plugin configure](/assets/images/2016-04-26/iOS_release_automation_1_git_plugin_1.png)
-<p>&emsp;&emsp;Build Environment 中的 Keychains and Code Signing Identifies 对应选择之前在 Keychains and Provisioning Profiles Management 中 添加的对应信息，如图:
+<p>&emsp;&emsp;Build Environment 中的 Keychains and Code Signing Identifies 对应选择之前在 Keychains and Provisioning Profiles Management 中 添加的对应信息，如图:</p>
 ![Keychains and Code Signing Identifies](/assets/images/2016-04-26/iOS_release_automation_1_keychain_and_code_signing_identifies.png)
-<p>&emsp;&emsp;Mobile Provision Profile 中对应选择之前在 Keychains and Provisioning Profiles Management 中 添加的对应信息，如图:
+<p>&emsp;&emsp;Mobile Provision Profile 中对应选择之前在 Keychains and Provisioning Profiles Management 中 添加的对应信息，如图:</p>
 ![Mobile Provision Profile](/assets/images/2016-04-26/iOS_release_automation_1_mobile_provision_profile.png)
 <p>&emsp;&emsp;Xcode 部分按照自己的需求勾选填写自己的项目信息，值得注意的是，项目中有Cocoapods，一定要填写 workspace 的 xcworkspace 文件(我的项目Git中是带有Pods文件夹的，如果只带有Podfile文件，而忽略Pods文件夹的话，还需要 Add build step 中添加 Execute shell来执行对应的pod install 或 update 等操作)，如图:</p>
 ![Xcode plugin](/assets/images/2016-04-26/iOS_release_automation_1_xcode_plugin_1.png)
