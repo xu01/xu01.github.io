@@ -36,7 +36,11 @@ categories: iOS
 * login.keychain 所在目录是 ~/Library/Keychains/ 并且检查你所使用的 Certificate 属于该 Keychain，当然你也可以新建一个 keychain 将证书添加进去
 
 <p>接下来讲两个Xcode中会遇到的问题：</p>
-* 因为之前都是利用Xcode手动打包的，所以几乎Schemes中的Shared都未选中，但苹果的文档中似乎提到了在使用Xcode Server之类的automatic integration时需要勾选Shared([Sharing Schemes]: https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeShare.html)
+* 因为之前都是利用Xcode手动打包的，所以几乎Schemes中的Shared都未选中，但苹果的文档中似乎提到了在使用Xcode Server之类的automatic integration时需要勾选Shared([Sharing Schemes][sharing schemes])
 ![Sharing Schemes](/assets/images/2016-04-26/iOS_release_automation_1_sharing_schemes.png)
-* 另外就是需要在Code Signing Resource Rules Path中填写对应的 SDK Resource Rule 的 plist 文件路径 ([Code Signing Resource Rules Path]: http://stackoverflow.com/questions/26516442/how-do-we-manually-fix-resourcerules-plist-cannot-read-resources-error-after)
+* 另外就是需要在Code Signing Resource Rules Path中填写对应的 SDK Resource Rule 的 plist 文件路径 ([Code Signing Resource Rules Path][code signing resource rules path])
 ![Code Signing Resource Rules Path](/assets/images/2016-04-26/iOS_release_automation_1_code_signing_resource_rules_path.png)
+
+
+[sharing schemes]: https://developer.apple.com/library/ios/recipes/xcode_help-scheme_editor/Articles/SchemeShare.html
+[code signing resource rules path]: http://stackoverflow.com/questions/26516442/how-do-we-manually-fix-resourcerules-plist-cannot-read-resources-error-after
