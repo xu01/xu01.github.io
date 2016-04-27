@@ -1,3 +1,4 @@
+<!--
 ---
 layout: post
 title:  "Hello 2016"
@@ -19,3 +20,4 @@ categories: Others
 
 ### 最后 ###
 <p>&emsp;&emsp;还有2天就又是生日了，不记得自己几岁了，也不想去想了，生日快乐吧～</p>
+-->
